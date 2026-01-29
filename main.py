@@ -16,6 +16,7 @@ async def get_session():
 class Base(DeclarativeBase):
     pass
 
+
 class BookModel(Base):
     __tablename__ = "books"
 
